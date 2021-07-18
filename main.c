@@ -20,7 +20,7 @@ static vec3_t           mouse_position      = {0};
 #include "update.c"
 #include "render.c"
 
-int main(void) {
+int WinMain(HINSTANCE a, HINSTANCE b, LPSTR c, int d) {
     static u8 memory[256 * MB];
     ma = ma_create(memory, ARRAY_COUNT(memory));
     
